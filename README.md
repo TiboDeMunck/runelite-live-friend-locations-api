@@ -22,4 +22,5 @@ note: under settings you will also find your url
 ![image](https://user-images.githubusercontent.com/46536105/137191199-8dfa2572-f0b2-42ee-aee3-e1248d67f110.png)
 
 8) Enter your base url (witouth the / at the end in the plugin on Runelite) and the shared key
+
 ! Only share this link and Url and Key with people you trust, it's not my fault if your api gets leaked and PK'ers know your every move in the wilderness

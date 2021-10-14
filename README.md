@@ -2,9 +2,12 @@
 This API is used in combination with the live friend locations plugin in runelite: https://github.com/TiboDeMunck/runelite-live-friend-locations-plugin
 
 # Setup
-Deploy the application and it is ready to use, for example on Heroku
+- Deploy somewhere 
+- After build returns shared key and creates .env file
 
 ## Heroku Setup
+Example of setup using Heroku
+
 1) Fork this repository to your own GitHub account
 2) Create a new heroku app
 3) Under "deploy" connect with your GitHub account

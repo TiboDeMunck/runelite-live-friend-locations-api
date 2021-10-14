@@ -49,7 +49,7 @@ app.post('/post', (req, res) => {
     let timestamp = Date.now()
     updateData(newObj, timestamp)
 
-    res.send("success")
+    res.send(data)
 })
 
 //Updates Location Data

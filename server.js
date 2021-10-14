@@ -39,7 +39,9 @@ app.use(function (req, res, next) {
 //Gives Location Data
 app.get('/', (req, res) => {
     let timestamp = Date.now()
+
     checkData(timestamp)
+    
     res.send(data)
 })
 
@@ -47,7 +49,9 @@ app.get('/', (req, res) => {
 app.post('/post', (req, res) => {
     let newObj = req.body
     let timestamp = Date.now()
+
     updateData(newObj, timestamp)
+    checkData(timestamp)
 
     res.send(data)
 })

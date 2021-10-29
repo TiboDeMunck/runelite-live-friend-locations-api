@@ -52,7 +52,6 @@ app.post('/post', (req, res) => {
 
     updateData(newObj, timestamp)
     checkData(timestamp)
-
     res.send(data)
 })
 
@@ -62,9 +61,12 @@ function updateData(newObj, timestamp) {
     data.forEach(d => {
         if (d.name == newObj.name) {
             objectAlreadyExisted = true
+            d.name = newObj.name
             d.x = newObj.waypoint.x
             d.y = newObj.waypoint.y
             d.plane = newObj.waypoint.plane
+            d.type = newObj.type
+            d.world = newObj.world
             d.timestamp = timestamp;
         }
     });
@@ -75,6 +77,7 @@ function updateData(newObj, timestamp) {
         "y": newObj.waypoint.y,
         "plane": newObj.waypoint.plane,
         "type": newObj.type,
+        "world": newObj.world,
         "timestamp": timestamp,
     })
 }

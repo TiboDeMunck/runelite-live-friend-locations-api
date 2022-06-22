@@ -66,6 +66,7 @@ function updateData(newObj, timestamp) {
             d.y = newObj.waypoint.y
             d.plane = newObj.waypoint.plane
             d.type = newObj.type
+            d.title = newObj.title
             d.world = newObj.world
             d.timestamp = timestamp;
         }
@@ -77,6 +78,7 @@ function updateData(newObj, timestamp) {
         "y": newObj.waypoint.y,
         "plane": newObj.waypoint.plane,
         "type": newObj.type,
+        "title": newObj.title,
         "world": newObj.world,
         "timestamp": timestamp,
     })

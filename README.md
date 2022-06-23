@@ -33,3 +33,4 @@ note: under settings you will also find your url
 ![image](https://user-images.githubusercontent.com/46536105/175146130-8537604b-6af6-4ad0-a48a-c5b8ac93e347.png)
 
 2) If Heroku is setup correctly, the updated repository should automatically deploy on Heroku
+2.1) If this doesn't work, manually deploy the "master" branch

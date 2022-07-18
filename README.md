@@ -37,4 +37,4 @@ note: under settings you will also find your url
 !If this doesn't work, manually deploy the "master" branch
 
 # Youtube Tutorial
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eMgULNYfU1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/eMgULNYfU1k
